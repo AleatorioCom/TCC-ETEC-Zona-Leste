@@ -39,6 +39,7 @@ CREATE TABLE flora (
     alt_media FLOAT,
     nome_cien VARCHAR(50) NOT NULL,
     nome_popu VARCHAR(50) NOT NULL,
+    caminho_imagem VARCHAR(100),
     FOREIGN KEY (id_adm) REFERENCES Administrador(id_adm),
     FOREIGN KEY (id_familia) REFERENCES familia(id_familia),
     FOREIGN KEY (id_genero) REFERENCES genero(id_genero)
