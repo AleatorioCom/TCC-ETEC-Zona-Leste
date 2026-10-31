@@ -2,7 +2,7 @@
 
 Aplicativo de catálogo de árvores da ETEC, com pedidos de novas plantas e aprovação pelo administrador.
 
-## Para rodar (resumo)
+## Para rodar
 
 1. Clique em `instalar-banco.bat` e digite a senha do MySQL.
 2. Clique em `start-server.bat` e deixe a janela aberta.
