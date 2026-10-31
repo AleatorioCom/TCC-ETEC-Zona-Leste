@@ -1,0 +1,27 @@
+{
+  "name": "arvores-etec",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Catalogo de arvores da ETEC - SPA mobile e aplicativo Android (Capacitor) sobre API PHP/MySQL.",
+  "scripts": {
+    "icones": "node tools/gerar-icones.js",
+    "cap:sync": "cap sync android",
+    "cap:open": "cap open android",
+    "cap:run": "cap run android",
+    "android:debug": "cap sync android && cd android && gradlew.bat assembleDebug",
+    "android:release": "cap sync android && cd android && gradlew.bat assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/keyboard": "^8.0.5",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "puppeteer-core": "^25.16.0",
+    "sharp": "^0.35.5"
+  }
+}
